@@ -1,0 +1,25 @@
+{
+    "name": "astro-slop-spawner",
+    "version": "0.0.1",
+    "description": "Declarative preprocessing pipes for frontmatter content with optional AI helpers for Claude CLI & API. You can use them to automatically generate summaries, translations or tags. Check out the Readme for examples.",
+    "type": "module",
+    "private": false,
+    "keywords": [
+        "astro-integration",
+        "claude"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "astro": "*",
+        "tinyglobby": "*"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "*",
+        "gray-matter": "*"
+    },
+    "devDependencies": {
+        "typescript": "^6.0.3"
+    }
+}
